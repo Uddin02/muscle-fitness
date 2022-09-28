@@ -1,0 +1,13 @@
+.buttons input {
+  font-weight: 700;
+  font-size: 30px;
+  appearance: none;
+  cursor: pointer;
+
+  text-align: center;
+  background: rgb(152, 44, 44);
+  color: white;
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+}
