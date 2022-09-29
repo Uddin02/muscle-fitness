@@ -14,7 +14,7 @@
   top: 0px;
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 576px) {
   .exercises-container {
     display: grid;
     grid-template-columns: 1fr;
@@ -23,6 +23,20 @@
   .exercise-container {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 18px;
+  }
+}
+
+/* query for large devices */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+  .exercises-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
+
+  .exercise-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 18px;
   }
 }

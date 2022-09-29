@@ -25,18 +25,13 @@ const Detail = ({time}) => {
     
     },[breakTime])
 
-    // const notify = () =>{
-    //     console.log('notify')
-    //     // toast('Hello Geeks')
-    // }
-    
 
     return (
         <div>
             <div className='card mt-4' style={{ width: '17rem' }}>
                 <div className='d-flex justify-content-around'>
                     <div className='p-2'>
-                        <h4>64<small className='text-secondary'>kg</small></h4>
+                        <h4>64<small className='text-secondary fs-6'>kg</small></h4>
                         <h5>Weight</h5>
                     </div>
                     
@@ -46,7 +41,7 @@ const Detail = ({time}) => {
                     </div>
                     
                     <div className='p-2'>
-                        <h4>25<small className='text-secondary'>yrs</small></h4>
+                        <h4>25<small className='text-secondary fs-6'>yrs</small></h4>
                         <h5>Age</h5>
                     </div>
                 </div>

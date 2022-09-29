@@ -39,7 +39,10 @@ function Exercises() {
             <div className='card container mt-4 bg-secondary ms-3 pt-3 ps-4 ' style={{ width: '20rem' }}>
                 <div className='d-flex align-items-center'>
                         <img className='rounded-5' style={{ width: '50px' }} src={MyImage} alt="" />
-                        <h4 className='ms-3 text-light'>Arif Uddin</h4>
+                        <div >
+                            <h4 className='ms-3 text-light'>Arif Uddin</h4>
+                            <h6 className='ms-3 text-light fs-6'>Dhaka,Bangladesh</h6>
+                        </div>
                 </div>
 
                 <div className='sideBar'>
