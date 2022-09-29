@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Toast from '../Toast/Toast';
 import './Detail.css';
 
 const Detail = ({time}) => {
@@ -12,7 +13,7 @@ const Detail = ({time}) => {
     const [breakTime, setBreakTime] = useState([]);
 
     const handleBreakTime = (event) =>{
-        
+
         setBreakTime(event.target.innerText);
         const storeTime = event.target.innerText;
         localStorage.setItem("Break-Time", JSON.stringify(storeTime));
@@ -23,6 +24,11 @@ const Detail = ({time}) => {
         setBreakTime(JSON.parse(storedTime));
     
     },[breakTime])
+
+    // const notify = () =>{
+    //     console.log('notify')
+    //     // toast('Hello Geeks')
+    // }
     
 
     return (
@@ -69,9 +75,14 @@ const Detail = ({time}) => {
                 </div>
             </div>
 
+            <div>
+                <Toast></Toast>
+            </div>
+
         </div>
         
     );
 };
+
 
 export default Detail;

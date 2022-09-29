@@ -1,5 +1,7 @@
+import React from 'react';
 import Exercises from './components/Exercises/Exercises';
 import Title from './components/Title/Title';
+
 
 function App() {
   return (
@@ -9,5 +11,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
