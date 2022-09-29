@@ -13,7 +13,7 @@ const Blog = () => {
                     <p className="fs-5"><span class="text-primary">Answer:</span> At its very core, React basically maintains a tree for you. This tree is able to do efficient diff computations on the nodes.Think of your HTML code as a tree. In fact, that is exactly how the browser treats your DOM (your rendered HTML on the browser). React allows you to effectively re-construct your DOM in JavaScript and push only those changes to the DOM which have actually occurred.</p>
 
                     <h4 className="mt-5 fw-bold">2.What is the difference between props and state?</h4>
-                    <p className="fs-5"><span class="text-primary">Answer:</span>
+                    <p className="fs-5"><span className="text-primary">Answer:</span>
                         <table className="table table-bordered border-secondary">
                             <thead>
                                 <tr className='text-secondary text-center'>
