@@ -36,7 +36,7 @@ function Exercises() {
             </div>
 
                
-            <div className='card container mt-4 bg-secondary ms-3 pt-3 ps-4 ' style={{ width: '20rem' }}>
+            <div className='card container mt-4 bg-secondary ms-lg-3 me-3 pt-3 ps-4 ' style={{ width: '20rem' }}>
                 <div className='d-flex align-items-center'>
                         <img className='rounded-5' style={{ width: '50px' }} src={MyImage} alt="" />
                         <div >
