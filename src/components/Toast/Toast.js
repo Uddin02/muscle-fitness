@@ -11,7 +11,7 @@ const Toast = () => {
 
     return (
         <div>
-            <button onClick={notify} className="btn btn-primary mt-4" style={{ width: '17rem' }}>Activity completed</button>
+            <button onClick={notify} className="btn btn-primary mt-4 mb-3" style={{ width: '17rem' }}>Activity completed</button>
             <ToastContainer></ToastContainer>
         </div>
     );

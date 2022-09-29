@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from './components/Blog/Blog';
 import Exercises from './components/Exercises/Exercises';
 import Title from './components/Title/Title';
 
@@ -8,6 +9,7 @@ function App() {
     <div>
       <Title></Title>
       <Exercises></Exercises>
+      <Blog></Blog>
     </div>
   );
 }
